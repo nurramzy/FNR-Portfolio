@@ -3,42 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Design Portfolio</title>
+  <title>FNR Portfolio</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Portfolio</h1>
+    <div class="profile">
+      <img src="images/fotodelta-rzy.png" alt="Website Profile Icon">
+    </div>
+    <h1 class="fade-down">Andi Muhammad Fajrin Nur Ramzy Makarratte </h1>
     <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About Me</a>
-      <a href="#contact">Contact</a>
+      <a class="fade-in" href="#about">About</a>
+      <a class="fade-in" href="#projects">Projects</a>
+      <a class="fade-in" href="#contact">Contact</a>
     </nav>
   </header>
-  
-  <section id="projects">
-    <h2>My Projects</h2>
-    <div class="project">
-      <img src="images/project1.png" alt="Project 1">
-      <h3>Project Title</h3>
-      <p>Brief description of the project.</p>
-    </div>
-    <!-- Add more projects here -->
-  </section>
-  
+
   <section id="about">
-    <h2>About Me</h2>
-    <p>I am a designer passionate about creating visually appealing and functional designs.</p>
+    <h2 data-aos="fade-up" data-aos-delay="1000">About Me</h2>
+    <div class="about" data-aos="fade-up" data-aos-delay="1500"> 
+      <img src="images/fotoprofilsantai.jpeg">
+    <p>An ambitious and eager fresh graduate from IPB University majoring in Marine Science and Technology
+      searching for opportunities to contribute the learned knowledge
+      and skills.
+      Well versed in the study of marine science and
+      passionate in integrating the technology engineering aspect.
+      Became a member of multiple organizations through a decade of
+      education that has helped in honing teamwork and individual
+      skills by managing events and participating in competitions.
+    </p>
+    </div>
   </section>
-  
+
+  <section id="projects">
+    <h2 data-aos="fade-up" data-aos-delay="500">Projects</h2>
+    <div class="project" data-aos="zoom-in" data-aos-delay="1000">
+      <img src="images/Kedaireka.png" src-delay="1000" alt="Project 1">
+      <img src="images/Kedaireka2.jpg" src-delay="1000" alt="Project 1">
+      <h3>Kedaireka Internship (2023)</h3>
+      <p>Team Leader in Program Studi Independen Junior Met-Ocean Data
+        Analyst (Jr MODA) batch-2
+      </p>
+      <p>Led a team of 9 in a month long independent study on mangrove
+        areas in Dukuh Pandansari, Desa Kaliwlingi, Brebes Regency,
+        Central Java
+      </p>
+      <p> 
+      Creating team study outputs including reports and creative 
+      projects (documentary video, infographics, and presentations)
+      </p>
+    </div>
+    <div class="project" data-aos="zoom-in" data-aos-delay="1000">
+      <img src="images/WebsiteKKN1.jpg" src-delay="1000" alt="Project 1">
+      <img src="images/WebsiteKKN2.jpg" src-delay="1000" alt="Project 1">
+      <h3>KKN-T Inovasi IPB (2023)</h3>
+      <p>Team Leader in Kuliah Kerja Nyata Tematik IPB University
+      </p>
+      <p>Led a team of 10 in a month long student program located in Desa Babakan, Kecamatan Dramaga, Bogor
+      </p>
+      <p> 
+      Creating team study outputs including reports and creative 
+      projects (infographics, presentations, and website mockup)
+      </p>
+    </div>
+    <div class="project" data-aos="zoom-in" data-aos-delay="1000">
+      <img src="images/MITR 2024.jpeg" alt="Project 2">
+      <h3>Marine Instrumentation Telemetry and Robotics Club (2021-2024)</h3>
+      <p> Programming Division and Internal Affairs Member
+        Worked as a lead programmer with the development team in
+        projects and competitions
+      </p>
+      <p>Managed working environment and activities between club
+        members
+      </p>
+      <p>Competed in the Brawijaya University KTI (Karya Tulis Ilmiah)
+        competition and entered the top 10 (2021)
+      </p>
+      <img src="images/PKMKC.jpeg" alt="Project 2">
+      <p>Competed in the PKM-KC (Program Kreativitas Mahasiswa-Karsa
+        Cipta) and got passed for funding (2023)
+      </p>
+    </div>
+    <div class="project" data-aos="zoom-in" data-aos-delay="1000">
+      <img src="images/HIMITEKAMEDFO.jpeg" alt="Project 3">
+      <h3>HIMPUNAN MAHASISWA ILMU DAN TEKNOLOGI KELAUTAN 
+                                 (2021-2022)</h3>
+      <p> Bureau of Media and Information Member 
+      </p>
+      <p>  Working as part of the journalistic team in charge of Ocean
+        Magazine Vol. 11 - 13 (2022)
+      </p>
+      <p>Assisted in graphic design for social media project
+      </p>
+    </div>
+  </section>
+
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: yourname@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your Profile</a></p>
+    <div class="contact" data-aos="fade-left" data-aos-delay="1000"> 
+    <h2 data-aos="fade-up" data-aos-delay="1000">Contact</h2>
+    <p data-aos="fade-up" data-aos-delay="1500">Email: nurramzy3105@gmail.com</p>
+    <p data-aos="fade-up" data-aos-delay="1500">LinkedIn: https://linkedin.com/in/andi-muhammad-fajrin-nur-ramzy-05931833b </p>
+    </div>
   </section>
-  
+
   <footer>
-    <p>© 2024 Your Name. All rights reserved.</p>
+    <p>© 2024 Andi Muhammad Fajrin Nur Ramzy M. All rights reserved.</p>
   </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
 </body>
 </html>
